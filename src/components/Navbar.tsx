@@ -90,6 +90,7 @@ const Navbar: FC<NavbarProps> = ({ className, ...props }) => {
                   <li key={link.name} className="flex items-center gap-2 p-2 ">
                     <Link
                       aria-label={`Link to ${link.name}`}
+                      target="_blank"
                       href={link.to}
                       className="translate-x-0 transform-gpu   rounded-sm transition duration-300  ease-in-out hover:text-amber-200 "
                     >

@@ -18,7 +18,7 @@ const Hero: FC<HeroProps> = ({ className, ...props }) => {
       <Technologies images={technologiesImg} size={55} className="py-8" />
       <VisualEnhancment />
       <div className="relative py-10 text-sm tracking-wider md:text-xl">
-        <FormatQuoteIcon className="mx-auto my-2 flex text-3xl text-amber-200" />
+        <FormatQuoteIcon className="mx-auto my-2 block text-3xl text-amber-200" />
         <p>
           Welcome to my digital playground, where I bring ideas to life. As a
           versatile web developer, I specialize in Next.js, React, TypeScript,
@@ -28,7 +28,7 @@ const Hero: FC<HeroProps> = ({ className, ...props }) => {
           tools and APIs, having applied them in enterprise-level projects. Lets
           collaborate and turn your vision into an interactive reality.
         </p>
-        <FormatQuoteIcon className="mx-auto my-2 flex text-3xl text-amber-200" />
+        <FormatQuoteIcon className="mx-auto my-2 block text-3xl text-amber-200" />
       </div>
       <div className="flex flex-col gap-4 text-sm md:flex-row md:text-xl">
         <Link
